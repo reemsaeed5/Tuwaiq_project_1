@@ -1,0 +1,19 @@
+body{background-color: black;
+    text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;}
+
+.nav{margin-left: 800px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-item{
+    padding-right: 30px;
+}
+
+.navbar-dark, bg-dark{
+    background-color: #000;
+}

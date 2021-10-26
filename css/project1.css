@@ -1,0 +1,28 @@
+h1{text-decoration: underline;
+color:white;
+text-shadow: wheat;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;}
+
+body{
+background-color: black;
+width: 90%;
+    margin: 0 auto;
+    text-align : center;
+
+}
+p{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-align: center;
+    color: white;
+}
+nav{
+    font-size: 125%;
+    text-decoration: underline;
+}
+.container{
+    width: 90%;
+    magin: 0 auto:
+    text-align: center;
+
+}
