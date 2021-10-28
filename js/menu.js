@@ -113,9 +113,9 @@ this.name = name;
 this.qty = qty;
 this.price = price;
 }
-$('#BeefBurger').click(function(){
+$('#beefBurger').click(function(){
     let name = 'beef burger';
-    let qty = parseInt($('#BeefBurger-qt').text());
+    let qty = parseInt($('#beefBurger-qt').text());
     let price = 56;//$('#price').val();
     let newItem = new Item(name, qty, price);
 
@@ -143,9 +143,9 @@ this.name = name;
 this.qty = qty;
 this.price = price;
 }
-$('#PenneArrabbiata').click(function(){
-    let name = 'Penne Arrabbiata';
-    let qty = parseInt($('#PenneArrabbiata-qt').text());;
+$('#penneArrabbiata').click(function(){
+    let name = 'penne Arrabbiata';
+    let qty = parseInt($('#penneArrabbiata-qt').text());;
     let price = 46;//$('#price').val();
     let newItem = new Item(name, qty, price);
 
@@ -174,9 +174,9 @@ this.name = name;
 this.qty = qty;
 this.price = price;
 }
-$('#PistachioPasta').click(function(){
-    let name = 'Pistachio pasta';
-    let qty = parseInt($('#PistachioPasta-qt').text());;
+$('#pistachiopasta').click(function(){
+    let name = 'pistachio pasta';
+    let qty = parseInt($('#pistachiopasta-qt').text());;
     let price = 46;//$('#price').val();
     let newItem = new Item(name, qty, price);
 
@@ -321,9 +321,9 @@ this.name = name;
 this.qty = qty;
 this.price = price;
 }
-$('#ShawarmaRolledMeat').click(function(){
-    let name = 'Pshawarma rolled Meat';
-    let qty = parseInt($('#ShawarmaRolledMeat-qt').text());;
+$('#ShawarmaRolledmeat').click(function(){
+    let name = 'shawarma rolled Meat';
+    let qty = parseInt($('#ShawarmaRolledmeat-qt').text());;
     let price = 24;//$('#price').val();
     let newItem = new Item(name, qty, price);
 
@@ -587,9 +587,9 @@ this.name = name;
 this.qty = qty;
 this.price = price;
 }
-$('#StrowberryJuice').click(function(){
+$('#strowberryJuice').click(function(){
     let name = 'strowberry juice';
-    let qty = parseInt($('#StrowberryJuice-qt').text());;
+    let qty = parseInt($('#strowberryJuice-qt').text());;
     let price = 26;//$('#price').val();
     let newItem = new Item(name, qty, price);
 
@@ -625,7 +625,7 @@ $('#fishBurger-increase').click(()=>{
     $('#fishBurger-qt').text(++quantity)
 })
 
-$('#beefSandwish-decrease').click(()=>{
+$('#BeefSandwish-decrease').click(()=>{
     let quantity = parseInt($('#BeefSandwich-qt').text());
     if(quantity >1){
         $('#BeefSandwich-qt').text(--quantity)
@@ -634,7 +634,7 @@ $('#beefSandwish-decrease').click(()=>{
     console.log(quantity);
 })
 
-$('#beefSandwish-increase').click(()=>{
+$('#BeefSandwish-increase').click(()=>{
     let quantity = parseInt($('#BeefSandwich-qt').text());
     console.log(quantity);
     $('#BeefSandwich-qt').text(++quantity)
@@ -701,35 +701,35 @@ $('#pistachiopasta-increase').click(()=>{
     $('#pistachiopasta-qt').text(++quantity)
 })
 
-$('#veganspaghetti-decrease').click(()=>{
-    let quantity = parseInt($('#veganspaghetti-qt').text());
+$('#VeganSpaghetti-decrease').click(()=>{
+    let quantity = parseInt($('#VeganSpaghetti-qt').text());
     if(quantity >1){
-        $('#veganspaghetti-qt').text(--quantity)
+        $('#VeganSpaghetti-qt').text(--quantity)
         
     }
     console.log(quantity);
 })
 
-$('#veganspaghetti-increase').click(()=>{
-    let quantity = parseInt($('#veganspaghetti-qt').text());
+$('#VeganSpaghetti-increase').click(()=>{
+    let quantity = parseInt($('#VeganSpaghetti-qt').text());
     console.log(quantity);
-    $('#veganspaghetti-qt').text(++quantity)
+    $('#VeganSpaghetti-qt').text(++quantity)
 })
 
 
-$('#roastedGarlicPasta-decrease').click(()=>{
-    let quantity = parseInt($('#roastedGarlicPasta-qt').text());
+$('#RoastedGarlicPasta-decrease').click(()=>{
+    let quantity = parseInt($('#RoastedGarlicPasta-qt').text());
     if(quantity >1){
-        $('#roastedGarlicPasta-qt').text(--quantity)
+        $('#RoastedGarlicPasta-qt').text(--quantity)
         
     }
     console.log(quantity);
 })
 
-$('#roastedGarlicPasta-increase').click(()=>{
-    let quantity = parseInt($('#roastedGarlicPasta-qt').text());
+$('#RoastedGarlicPasta-increase').click(()=>{
+    let quantity = parseInt($('#RoastedGarlicPasta-qt').text());
     console.log(quantity);
-    $('#roastedGarlicPasta-qt').text(++quantity)
+    $('#RoastedGarlicPasta-qt').text(++quantity)
 })
 
 $('#VeganShawarma-decrease').click(()=>{
@@ -900,19 +900,19 @@ $('#MangoJuice-increase').click(()=>{
 })
 
 
-$('#strowberryjuice-decrease').click(()=>{
-    let quantity = parseInt($('#strowberryjuice-qt').text());
+$('#strowberryJuice-decrease').click(()=>{
+    let quantity = parseInt($('#strowberryJuice-qt').text());
     if(quantity >1){
-        $('#strowberryjuice-qt').text(--quantity)
+        $('#strowberryJuice-qt').text(--quantity)
         
     }
     console.log(quantity);
 })
 
-$('#strowberryjuice-increase').click(()=>{
-    let quantity = parseInt($('#strowberryjuice-qt').text());
+$('#strowberryJuice-increase').click(()=>{
+    let quantity = parseInt($('#strowberryJuice-qt').text());
     console.log(quantity);
-    $('#strowberryjuice-qt').text(++quantity)
+    $('#strowberryJuice-qt').text(++quantity)
 })
 
 

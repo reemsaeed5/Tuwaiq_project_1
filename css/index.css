@@ -2,7 +2,8 @@ h1{text-decoration: underline;
 color:white;
 text-shadow: wheat;
 font-family: 'Times New Roman', Times, serif;
-text-align: center;}
+text-align: center;
+font-size: 50px;}
 
 body{
 background-color: black;
@@ -22,7 +23,14 @@ nav{
 }
 .container{
     width: 90%;
-    magin: 0 auto:
+    margin: 0 auto;
     text-align: center;
 
 }
+
+h3{text-decoration: underline;
+    color:white;
+    text-shadow: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+ font-size: 50px;}
