@@ -915,7 +915,9 @@ $('#strowberryJuice-increase').click(()=>{
     $('#strowberryJuice-qt').text(++quantity)
 })
 
-
+$('#Login').click(function(){
+window.location.href="menu.html"
+})
 
 
 

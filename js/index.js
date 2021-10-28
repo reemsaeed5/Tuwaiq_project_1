@@ -9,3 +9,8 @@
 ///localStorage.setItem('name','reem');
 //alert(localStorage.getItem('name'));
 //localStorage.removeItem('name');
+
+
+$("#signUp").click(function(){
+   window.location.href="login.html"
+})
