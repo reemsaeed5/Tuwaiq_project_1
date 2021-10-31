@@ -1,28 +1,22 @@
-// let user=document.querySelector("#username");
-// let email=document.querySelector("#email");
-// let password=document.querySelector("#password");
-// let regisBtn=document.querySelector("#sginup");
-// regisBtn.addEventListener('click', function(){
-//     if(user.value === ""||email.value === ""||password.value === ""){
-//         alert("please enter your Data");
-//     }else{
-//         window.localStorage.setItem('user',user.value);
-//         window.localStorage.setItem('email',email.value);
-//         window.localStorage.setItem('password',password.value);
-        
-//     }
-//     setTimeout(()=>{
-        
-//         window.localStorage='login.html';
+let userName = $('#the-input-userName');
+let password = $('#the-input-password');
 
-//     },1500)
-// });
+let result =$('.results > span');
 
+$('.check-item').click(function(){
+    let name = localStorage.getItem('name');
+    let pass = localStorage.getItem('password');
 
-let user= "reem";
-let pas="123"
+    if (userName.val()=== name && password.val()===pass){
+        result.html('find < span>${userName.val()}</span>');
 
-if(user==="reem"&& pas===123){
-  
-    window.localStorage='login.html';
-}
+    }else{
+        result.html('Not Find <span>${userName.val()}</span>');
+
+    }
+});
+$('.add-item').click(function(){
+    localStorage.setItem('name' , userName.val());
+    localStorage.setItem('password', password.val());
+    result.html('add<span>${userName.val()}</span>');
+});
