@@ -25,21 +25,7 @@ this.price = price;
 }
 
 
-$('#fishBu
-
-
-
-
-
-
-
-
-
-
-
-
-
-rger').click(function(){
+$('#fishBurger').click(function(){
     let name = 'Fish burger';
     let qty = parseInt($('#fishBurger-qt').text());
     let price = 56;//$('#price').val();
